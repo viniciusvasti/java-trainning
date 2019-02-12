@@ -15,8 +15,18 @@ package vas.book.effectivejava.creatingobjects;
 // 5. It's possible to return classes that don't exist yet.
 // 
 // Limitations:
-// 1. 
-// 2. 
+// 1. To be subclassed, a class should has a public constructor
+// 2. It's not so easy to other programmers find the static factories in a class
+//
+// Common names for it:
+// - from
+// - of
+// - valueOf
+// - instance / getInstance
+// - create / newInstance
+// - getSomeType
+// - newSomeType
+// - someType
 public class StaticFactoryOverConstructor {
 
     public static void main(String[] args) {
