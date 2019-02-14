@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package vas.book.effectivejava.creatingobjects.builder;
 
 import java.util.EnumSet;
@@ -20,6 +15,7 @@ public abstract class AbstractPizza {
     }
     final Set<Topping> toppings;
 
+    // Recursive type bounds allows subclasses to use their own type
     abstract static class Builder<T extends Builder<T>> {
 
         EnumSet<Topping> toppings = EnumSet.noneOf(Topping.class);
