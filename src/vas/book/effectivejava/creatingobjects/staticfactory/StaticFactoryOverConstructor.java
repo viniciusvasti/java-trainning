@@ -1,4 +1,4 @@
-package vas.book.effectivejava.creatingobjects;
+package vas.book.effectivejava.creatingobjects.staticfactory;
 
 /**
  *
